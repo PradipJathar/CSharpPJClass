@@ -44,10 +44,10 @@ namespace P1_Variables
 
             string firstName = "Pradip ";
             string lastName = "Jathar";
-            Console.WriteLine(firstName + lastName);                    // Use the + character to join a variable to another variable if they are string.
-
-            int a = 5, b = 10;                                          // To declare more than one variable of the same type, use a comma-separated list.
-            Console.WriteLine("Addition of a and b is " + a + b);       // The + character works as a mathematical operator.
+            Console.WriteLine(firstName + lastName);     // Use the + character to join a variable to another variable if they are string.
+                                                         
+            int a = 5, b = 10;                           // To declare more than one variable of the same type, use a comma-separated list.
+            Console.WriteLine(a + b);                    // The + character works as a mathematical operator.
 
 
 
