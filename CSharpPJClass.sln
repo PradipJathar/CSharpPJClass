@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Variables", "P1_Variable
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Variables_Exercise", "P1_Variables_Exercise\P1_Variables_Exercise.csproj", "{310D68E7-5EFB-41B7-AACF-9100F432D2E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_DataTypes", "P2_DataTypes\P2_DataTypes.csproj", "{5994A87E-F6EB-4A77-B0C3-A1B5C20492FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{310D68E7-5EFB-41B7-AACF-9100F432D2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{310D68E7-5EFB-41B7-AACF-9100F432D2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{310D68E7-5EFB-41B7-AACF-9100F432D2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5994A87E-F6EB-4A77-B0C3-A1B5C20492FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5994A87E-F6EB-4A77-B0C3-A1B5C20492FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5994A87E-F6EB-4A77-B0C3-A1B5C20492FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5994A87E-F6EB-4A77-B0C3-A1B5C20492FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
