@@ -75,6 +75,60 @@ namespace P2_DataTypes
 
             string myName = "Pradip";
 
+
+
+
+            // Type Casting:
+
+            // Type casting is when you assign a value of one data type to another type.            
+            // In C#, there are two types of casting:
+
+
+            // 1. Implicit Casting (automatically):
+            //    Implicit casting is done automatically when passing a smaller size type to a larger size type
+            //    char -> int -> long -> float -> double
+
+            Console.WriteLine("Implicit Casting:");
+
+            int myInt = 9;
+            double myDouble = myInt;       // Automatic casting: int to double
+
+            Console.WriteLine(myInt);      
+            Console.WriteLine(myDouble);
+
+
+            Console.WriteLine("\nExplicit Casting:");
+
+            // 2. Explicit Casting (manually):
+            //    Explicit casting must be done manually by placing the type in parentheses in front of the value.
+            //    double -> float -> long -> int -> char
+            //    We can use type conversion methods for Explicit Casting.
+            //    Type Conversion Methods - Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (for int) and Convert.ToInt64 (for long).
+
+            double myDouble1 = 5.81;
+            int myInt1 = (int) myDouble1;
+            int myInt2 = Convert.ToInt32(myDouble1);        // Using Type Conversion Methods. (This round the number).
+
+            Console.WriteLine(myDouble1);
+            Console.WriteLine(myInt1);
+            Console.WriteLine(myInt2);
+
+
+            // More Examples for Explicit Casting:
+
+            string str = "10";
+            int strNum = Convert.ToInt32(str);              // convert string to int 
+            Console.WriteLine(strNum);
+
+
+            string s = "false";
+            bool t = Convert.ToBoolean(s);                  // convert string to bool
+            Console.WriteLine(t);
+
+            double num2 = 7.25;
+            string a = Convert.ToString(num2);              // convert double to string
+            Console.WriteLine(a);    
+
         }
     }
 }
