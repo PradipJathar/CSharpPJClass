@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_DataTypes", "P2_DataType
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_UserInput", "P3_UserInput\P3_UserInput.csproj", "{403F301C-1D97-4E87-AE86-13F376C0CAD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_Operators", "P4_Operators\P4_Operators.csproj", "{6BFAB2D6-DD4A-45B0-A712-B7C5850DD766}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{403F301C-1D97-4E87-AE86-13F376C0CAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{403F301C-1D97-4E87-AE86-13F376C0CAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{403F301C-1D97-4E87-AE86-13F376C0CAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFAB2D6-DD4A-45B0-A712-B7C5850DD766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFAB2D6-DD4A-45B0-A712-B7C5850DD766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFAB2D6-DD4A-45B0-A712-B7C5850DD766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFAB2D6-DD4A-45B0-A712-B7C5850DD766}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
