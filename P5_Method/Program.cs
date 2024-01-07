@@ -14,22 +14,59 @@ namespace P5_Method
             Intro("Pradip", "Jathar", 24);          // Method
             Console.WriteLine($"My percentage are {CalculatePercentage(80, 70, 90, 60)}.");    // Function
 
-            Intro("Swati", "Jathar", 22);           // Method
-            Console.WriteLine($"{CalculatePercentage(45, 78, 89, 40)} are my percentage.");   // Function
+            Console.WriteLine();
+
+
+            // Method overloading - Intro
+
+            Intro("Swati", "Jathar", 22); 
+
+            Intro("Pradip J", 24);              // Method overload - Rule 1 - Change the number of parameter.
+
+            Intro(22, "Swati J");               // Method overload - Rule 2 - Change the position of parameter.
+
+            Intro(27.5, "Pravin G");            // Method overload - Rule 3 - Change the datatype of parameter. --> (if you required same position).
         }
 
 
         // Method (void Method - Method with no return value)
 
+        // Method overload
         static void Intro(string firstName, string lastName, int age)
         {
             string fullName = firstName + " " + lastName;
 
             Console.WriteLine("Hii,");
             Console.WriteLine($"My name is {fullName}.");
-            Console.WriteLine($"My age is {age}.");
+            Console.WriteLine($"My age is {age}.\n");
         }
 
+        // Method overload - Rule 1 - Change the number of parameter.
+        static void Intro(string fullName, int age)
+        {
+            Console.WriteLine("Rule 1 - Change the number of parameter.");
+            Console.WriteLine("Hii,");
+            Console.WriteLine($"My name is {fullName}.");
+            Console.WriteLine($"My age is {age}.\n");
+        }
+
+        // Method overload - Rule 2 - Change the position of parameter.
+        static void Intro(int age, string fullName)
+        {
+            Console.WriteLine("Rule 2 - Change the position of parameter.");
+            Console.WriteLine("Hii,");
+            Console.WriteLine($"My name is {fullName}.");
+            Console.WriteLine($"My age is {age}.\n");
+        }
+
+        // Method overload - Rule 3 - Change the datatype of parameter if you required same position.
+        static void Intro(double age, string fullName)
+        {
+            Console.WriteLine("Rule 3 - Change the datatype of parameter if you required same position.");
+            Console.WriteLine("Hii,");
+            Console.WriteLine($"My name is {fullName}.");
+            Console.WriteLine($"My age is {age}.\n");
+        }
 
 
         // Function (Method with return value)
