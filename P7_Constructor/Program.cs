@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using P8_AccessModifiers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,13 @@ namespace P7_Constructor
         {
             Employee pradip = new Employee("Pradip Jathar", "Thermax", 252045.60);
         }
+
+
+        // Accessing class for check accesibility (AccessModifiers)
+
+        ClassPublic xyz = new ClassPublic();
+
+        // ClassInternal abc = new ClassInternal();  // internal - The code is only accessible within its own assembly, but not from another assembly. 
     }
 
 
